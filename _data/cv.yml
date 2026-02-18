@@ -24,7 +24,7 @@ cv:
         area: Information Science
         studyType: Ph.D.
         start_date: 2022
-        end_date: 2027 (expected)
+        end_date: present
         highlights:
           - "Advisors: Prof. Qiaozhu Mei and Prof. Yan Chen"
 
@@ -48,18 +48,26 @@ cv:
     Awards:
       - title: Innovations Growth Lab Seed Grant
         date: 2025
+        authors:
+          - "Innovations Growth Lab"
 
       - title: "OpenAI's Researcher Access Program"
         date: 2025
+        authors:
+          - "OpenAI"
 
       - title: Rackham Graduate Student Research Grant
         date: 2022
         awarder: University of Michigan
         summary: "Awarded twice (2022, 2024)"
+        authors:
+          - "University of Michigan"
 
       - title: Robert B. Zajonc Scholars Fund
         date: 2022
         awarder: University of Michigan
+        authors:
+          - "University of Michigan"
 
     Experience:
       - company: University of Michigan
