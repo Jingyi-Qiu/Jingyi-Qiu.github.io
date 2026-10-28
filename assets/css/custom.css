@@ -4,6 +4,10 @@
 /* The base theme uses font-weight 100 for body text, so <strong> needs an explicit weight */
 .post-content strong, .news strong { font-weight: bold; }
 
+/* Bio key phrases: accent-colored highlight instead of plain bold */
+.bio strong { font-weight: 600; color: #1f2933; background: linear-gradient(transparent 56%, rgba(255,203,5,.42) 56%); padding: 0 .1em; }
+.bio strong a { color: #2f65a7; }
+
 /* Footer: include padding in its width (prevents horizontal scroll) */
 footer { box-sizing: border-box; }
 

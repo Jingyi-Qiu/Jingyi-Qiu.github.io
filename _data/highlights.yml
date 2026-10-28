@@ -63,8 +63,10 @@ talks:
   - year: "2026"
     text: Business Implications of Generative AI Conference (MIT); AI in Research Symposium (University of Michigan)
   - year: "2025"
-    text: Carnegie Mellon University (Nihar Shah group); Caltech Behavioral &amp; Experimental Workshop; Human-Centered AI Symposium (University of Michigan)
+    text: ML-Driven Discovery Workshop (MIT); Carnegie Mellon University (Nihar Shah group); Caltech Behavioral &amp; Experimental Workshop; Human-Centered AI Symposium (University of Michigan)
   - year: "2024"
-    text: Stanford Institute for Theoretical Economics (SITE); Econometric Society Interdisciplinary Frontiers Conference on Economics and AI+ML (Cornell); Caltech (Colin Camerer group)
-  - year: "2022&ndash;2023"
-    text: ACM Conference on Economics and Computation (EC); Advances with Field Experiments (UChicago); ESA North America
+    text: Stanford Institute for Theoretical Economics (SITE); Econometric Society Interdisciplinary Frontiers Conference on Economics and AI+ML (Cornell); Caltech (Colin Camerer group); Tsinghua Conference on Behavioral, Experimental and Theoretical Economics; UC San Diego Spring School in Behavioral Economics
+  - year: "2023"
+    text: Advances with Field Experiments (UChicago); Caltech Behavioral &amp; Experimental Workshop; ESA North America (UNC)
+  - year: "2022"
+    text: ACM Conference on Economics and Computation (EC); SABE Conference (Lake Tahoe); ESA North America (UCSB)
