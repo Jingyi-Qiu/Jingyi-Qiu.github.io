@@ -7,7 +7,7 @@ subtitle_note: On the 2026&ndash;27 academic and industry job markets.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_2026.jpg
 
 news: true
 social: true

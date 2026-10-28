@@ -7,7 +7,7 @@ GitHub Pages builds this repository with its built-in Jekyll on every push to `m
 
 Where to edit:
 
-- Bio, title line, photo: `_pages/about.md` (photo: `assets/img/prof_pic.jpg`)
+- Bio, title line, photo: `_pages/about.md` (photo: `assets/img/prof_pic_2026.jpg`)
 - News: add a file to `_news/` (front matter `date:` for ordering, `display_date:` for the label)
 - Publications: `_data/publications.yml`
 - CV: replace `assets/pdf/Jingyi_Qiu_CV.pdf`; summary sections in `_pages/cv.md`
