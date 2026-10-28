@@ -17,6 +17,10 @@
       venue: International Conference on Learning Representations (ICLR)
       year: 2026
       links:
+        - label: ICLR
+          url: https://iclr.cc/virtual/2026/poster/10008211
+        - label: OpenReview
+          url: https://openreview.net/forum?id=fiohEI16sf
         - label: arXiv
           url: https://arxiv.org/abs/2512.19908
 

@@ -14,6 +14,8 @@ research:
     with: with Hong Chen and Zongyi Li
     finding: Turns an LLM from an unreliable rater into a controlled measurement instrument. Across 8,485 ICLR submissions and 250,000+ counterfactual writings, promotional framing predicts citations and media attention beyond peer-review scores, and rises sharply after 2023 with LLM writing assistance.
     links:
+      - name: ICLR
+        url: https://iclr.cc/virtual/2026/poster/10008211
       - name: arXiv
         url: https://arxiv.org/abs/2512.19908
   - tag: Working paper

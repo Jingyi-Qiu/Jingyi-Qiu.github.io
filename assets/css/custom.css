@@ -113,9 +113,14 @@ footer { box-sizing: border-box; }
 .recognition strong { font-weight: bold; color: #222; }
 
 /* ---- CV page: full PDF embedded in the site ---- */
-.cv-embed iframe { width: 100%; height: calc(100vh - 220px); min-height: 640px; border: 1px solid #e3e3e3; border-radius: 4px; }
+.cv-bar, .cv-embed { width: min(1100px, calc(100vw - 32px)); position: relative; left: 50%; transform: translateX(-50%); }
+.cv-bar { display: flex; justify-content: space-between; align-items: center; gap: 1em; margin: -0.5em 0 0.75em; }
+.cv-bar .button-blue, article .cv-bar a.button-blue { color: #fff; font-weight: normal; }
+.cv-bar a.button-blue:hover { background-color: #00274c; text-decoration: none; }
+.cv-embed iframe { display: block; width: 100%; height: calc(100vh - 200px); min-height: 560px; border: 1px solid #e3e3e3; border-radius: 6px; box-shadow: 0 2px 14px rgba(0,0,0,.06); }
 .cv-mobile-note { display: none; color: #666; font-size: 0.9em; }
 @media screen and (max-width: 600px) {
   .cv-embed { display: none; }
+  .cv-bar { width: auto; left: 0; transform: none; flex-wrap: wrap; margin-top: 0; }
   .cv-mobile-note { display: block; }
 }
