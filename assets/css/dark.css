@@ -62,7 +62,7 @@ html[data-theme="dark"] blockquote footer { background-color: #121417; }
 /* Cards, highlights, photo, CV viewer */
 html[data-theme="dark"] .hl-card { background: #171a1f; border-color: #262b31; border-top-color: #5b8fd6; }
 html[data-theme="dark"] .hl-tag { background: #3d74c0; }
-html[data-theme="dark"] .bio strong { color: #f3f5f7; background: linear-gradient(transparent 56%, rgba(255,203,5,.30) 56%); }
+html[data-theme="dark"] .bio strong { color: #8db8ff; background: none; }
 html[data-theme="dark"] .profile img { box-shadow: 0 0 8px rgba(0,0,0,.7); }
 html[data-theme="dark"] .cv-embed iframe { border-color: #2a2f36; box-shadow: 0 2px 18px rgba(0,0,0,.5); }
 
