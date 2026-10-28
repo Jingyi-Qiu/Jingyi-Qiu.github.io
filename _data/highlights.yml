@@ -1,0 +1,64 @@
+# Homepage highlights. Edit freely; every item is rendered by _includes/highlights.html.
+
+research:
+  - tag: PNAS 2026
+    title: Social Media Promotion Improves Job Market Outcomes
+    with: with Yan Chen, Alain Cohn, and Alvin E. Roth
+    finding: A preregistered field experiment in the economics job market shows that promoting candidates' job market papers on social media to the right audience improves their real labor market outcomes.
+    note: "Covered by the Financial Times, Michigan News, and New Things Under the Sun."
+    links:
+      - name: Paper
+        url: https://www.pnas.org/doi/10.1073/pnas.2528289123
+  - tag: ICLR 2026
+    title: Counterfactual LLM-based Framework for Measuring Rhetorical Style
+    with: with Hong Chen and Zongyi Li
+    finding: Turns an LLM from an unreliable rater into a controlled measurement instrument. Across 8,485 ICLR submissions and 250,000+ counterfactual writings, promotional framing predicts citations and media attention beyond peer-review scores, and rises sharply after 2023 with LLM writing assistance.
+    links:
+      - name: arXiv
+        url: https://arxiv.org/abs/2512.19908
+  - tag: Working paper
+    title: Perceived AI Use and Hiring Penalties
+    with: with Qingyi Wang
+    finding: In a hiring experiment for a real position, applicants suspected of using AI receive up to 40.6% lower evaluations whether or not they used it; recruiters detect AI use barely better than chance and infer lower ability, not lower effort.
+    links:
+      - name: SSRN
+        url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5675322
+  - tag: Ongoing &middot; Together AI
+    title: Organizing Agent Swarms
+    with: Frontier Agents team
+    finding: How the organization of LLM agent collectives, model capability, reasoning, the agent harness, and the allocation of compute across agents shape multi-agent performance, including agents evaluating one another and agents in dynamic zero-sum games.
+
+honors:
+  - year: "2026"
+    text: <strong>Best Poster Award</strong>, AI for Social Science Research Methods Workshop, Yale University
+  - year: "2026"
+    text: <strong>Empowering Research with AI Award</strong>, University of Michigan
+  - year: "2025"
+    text: <strong>OpenAI Researcher Access Program</strong> ($10,000)
+  - year: "2025"
+    text: <strong>Innovation Growth Lab Seed Grant</strong> (co-PI with Qingyi Wang)
+  - year: "2024"
+    text: Pass with Distinction for Pre-candidacy Paper (top 10%)
+  - year: "2022, 2024"
+    text: Rackham Graduate Student Research Grants; Robert B. Zajonc Scholars Fund (2022)
+
+media:
+  - outlet: Financial Times
+    title: When is it OK for economists to experiment on people?
+    url: https://www.ft.com/content/df7c0a50-dcc6-4b3a-b3dc-22f742125421
+  - outlet: Michigan News
+    title: Economist retweets boost visibility, outcomes for doctoral job seekers
+    url: https://news.umich.edu/economist-retweets-boost-visibility-outcomes-for-doctoral-job-seekers/
+  - outlet: New Things Under the Sun
+    title: Twitter and the Spread of Academic Knowledge
+    url: https://mattsclancy.substack.com/p/twitter-and-the-spread-of-academic
+
+talks:
+  - year: "2026"
+    text: Business Implications of Generative AI Conference (MIT); AI in Research Symposium (University of Michigan)
+  - year: "2025"
+    text: Carnegie Mellon University (Nihar Shah group); Caltech Behavioral &amp; Experimental Workshop; Human-Centered AI Symposium (University of Michigan)
+  - year: "2024"
+    text: Stanford Institute for Theoretical Economics (SITE); Econometric Society Interdisciplinary Frontiers Conference on Economics and AI+ML (Cornell); Caltech (Colin Camerer group)
+  - year: "2022&ndash;2023"
+    text: ACM Conference on Economics and Computation (EC); Advances with Field Experiments (UChicago); ESA North America

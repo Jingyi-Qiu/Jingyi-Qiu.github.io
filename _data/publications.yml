@@ -1,0 +1,64 @@
+# Publications shown on /publications/, grouped into sections in the order listed.
+# Source of truth: CV (October 2026). "Jingyi Qiu" is bolded automatically in author lists.
+# Fields: title, authors, venue, year, note (optional), links (optional list of label/url).
+
+- section: Peer-Reviewed Publications
+  items:
+    - title: Social Media Promotion Improves Job Market Outcomes
+      authors: Jingyi Qiu, Yan Chen, Alain Cohn, and Alvin E. Roth
+      venue: "Proceedings of the National Academy of Sciences (PNAS), 123(19): e2528289123"
+      year: 2026
+      links:
+        - label: PNAS
+          url: https://www.pnas.org/doi/10.1073/pnas.2528289123
+
+    - title: Counterfactual LLM-based Framework for Measuring Rhetorical Style
+      authors: Jingyi Qiu, Hong Chen, and Zongyi Li
+      venue: International Conference on Learning Representations (ICLR)
+      year: 2026
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2512.19908
+
+    - title: Comparing Human-Only, AI-Assisted, and AI-Led Teams on Assessing Research Reproducibility in Quantitative Social Science
+      authors: A. Brodeur, D. Valenta, A. Marcoci, J. P. Aparicio, D. Mikola, B. Barbarioli, R. Alexander, et al.
+      venue: Proceedings of the National Academy of Sciences (PNAS)
+      year: 2026
+      note: Crowdsourced research collaboration; Jingyi Qiu is listed as a contributing author.
+      links:
+        - label: PNAS
+          url: https://www.pnas.org/doi/10.1073/pnas.2524747123
+
+    - title: Curiosity in News Consumption
+      authors: Jingyi Qiu and Russell Golman
+      venue: "Applied Cognitive Psychology, 38(2): e4195"
+      year: 2024
+      links:
+        - label: Wiley
+          url: https://onlinelibrary.wiley.com/doi/full/10.1002/acp.4195
+
+- section: Preprints and Working Papers
+  items:
+    - title: Generative AI Advertising as a Problem of Trustworthy Commercial Intervention
+      authors: Jingyi Qiu and Qiaozhu Mei
+      venue: Preprint
+      year: 2026
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2605.18673
+
+    - title: "Perceived AI Use and Hiring Penalties: Experimental Evidence"
+      authors: Qingyi Wang and Jingyi Qiu
+      venue: Working paper
+      year: 2025
+      links:
+        - label: SSRN
+          url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5675322
+
+    - title: Using Artificial Intelligence to Unlock Crowdfunding Success for Small Businesses
+      authors: Teng Ye, Jingnan Zheng, Junhui Jin, Jingyi Qiu, Wei Ai, and Qiaozhu Mei
+      venue: Working paper
+      year: 2024
+      links:
+        - label: SSRN
+          url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4806426

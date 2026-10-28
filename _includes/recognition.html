@@ -1,0 +1,29 @@
+{% assign h = site.data.highlights %}
+<section class="recognition">
+  <div class="rec-col">
+    <h2>Honors &amp; Grants</h2>
+    <table class="rec-table">
+      {% for x in h.honors %}
+      <tr><td class="date">{{ x.year }}</td><td>{{ x.text }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <div class="rec-col">
+    <h2>In the Media</h2>
+    <ul class="media-list">
+      {% for m in h.media %}
+      <li><span class="outlet">{{ m.outlet }}</span><a href="{{ m.url }}" target="_blank" rel="noopener">{{ m.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="rec-col">
+    <h2>Selected Talks</h2>
+    <table class="rec-table">
+      {% for t in h.talks %}
+      <tr><td class="date">{{ t.year }}</td><td>{{ t.text }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+</section>

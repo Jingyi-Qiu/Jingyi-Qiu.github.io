@@ -1,0 +1,16 @@
+<div class="news">
+  <h2>News</h2>
+  {% assign news = site.news | sort: "date" | reverse %}
+  {% if news.size > 0 %}
+    <table>
+    {% for item in news limit: site.news_limit %}
+      <tr>
+        <td class="date">{% if item.display_date %}{{ item.display_date }}{% else %}{{ item.date | date: "%b %Y" }}{% endif %}</td>
+        <td class="announcement">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>
+      </tr>
+    {% endfor %}
+    </table>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

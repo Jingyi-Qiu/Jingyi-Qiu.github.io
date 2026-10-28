@@ -1,32 +1,18 @@
 ---
 layout: about
-title: about
 permalink: /
-subtitle: Ph.D. Candidate, <a href='https://www.si.umich.edu/'>School of Information</a>, University of Michigan
+title: About
+subtitle: Ph.D. Candidate, <a href="https://www.si.umich.edu/" target="_blank" rel="noopener">School of Information</a>, University of Michigan
+subtitle_note: On the 2026&ndash;27 academic and industry job markets.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>School of Information</p>
-    <p>University of Michigan</p>
-    <p>Ann Arbor, MI</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true
+social: true
 ---
 
-My research focuses on the intersection of human-centered AI and behavioral economics. I combine machine learning with laboratory and field experiments (e.g., A/B testing) and large-scale data analysis to study how LLM-based systems shape fairness, efficiency, and human attention in domains such as science, hiring, the job market, and crowdfunding. Ultimately, I aim to understand the broader implications of human-AI collaboration and to design LLM agents that improve social outcomes.
+I am a Ph.D. candidate in Information Science at the University of Michigan School of Information, advised by Yan Chen, Qiaozhu Mei, and Alain Cohn. I study **how AI agents should be organized and evaluated**, and **how people interact with AI and judge AI-assisted work**. My research combines field and lab experiments, causal inference, and LLM-based measurement, so that claims about what AI systems do can be tested rather than assumed.
 
-I am a Ph.D. candidate in Information Science at the University of Michigan, advised by [Prof. Qiaozhu Mei](https://www.si.umich.edu/people/qiaozhu-mei) and [Prof. Yan Chen](https://yanchen.people.si.umich.edu/). I hold a B.Econ. from Duke Kunshan University and a B.A. from Duke University.
+I am currently a **Frontier Agents research intern at [Together AI](https://www.together.ai/)**, where I study how different ways of organizing agent swarms affect how effectively LLM agents work together, including how agents evaluate one another's work; I also study how agents perform in strategic settings. My other work examines how AI and digital platforms shape **labor markets and hiring**, and develops **LLM-based measurement methods**, such as a counterfactual framework for measuring rhetorical style (ICLR 2026). Previously, I was a research intern at **Microsoft Research** (Economics and Computation). I received a B.A. from Duke University and a B.Econ. from Duke Kunshan University.

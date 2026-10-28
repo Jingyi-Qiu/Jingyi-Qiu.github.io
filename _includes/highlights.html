@@ -1,0 +1,16 @@
+{% assign h = site.data.highlights %}
+<section class="highlights">
+  <h2>Research Highlights</h2>
+  <div class="hl-grid">
+    {% for r in h.research %}
+    <div class="hl-card">
+      <span class="hl-tag">{{ r.tag }}</span>
+      <div class="hl-title">{{ r.title }}</div>
+      {% if r.with %}<div class="hl-with">{{ r.with }}</div>{% endif %}
+      <p class="hl-finding">{{ r.finding }}</p>
+      {% if r.note %}<p class="hl-note">{{ r.note }}</p>{% endif %}
+      {% if r.links %}<div class="hl-links">{% for l in r.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }} &rarr;</a>{% endfor %}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

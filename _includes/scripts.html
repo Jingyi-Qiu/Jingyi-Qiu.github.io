@@ -1,0 +1,6 @@
+<script>
+  // Assemble mailto links in the browser so the address is not in the HTML source.
+  document.querySelectorAll('a.js-email').forEach(function (a) {
+    a.href = 'mailto:' + a.getAttribute('data-u') + '@' + a.getAttribute('data-d');
+  });
+</script>
