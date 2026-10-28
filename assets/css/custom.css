@@ -106,3 +106,4 @@ footer { box-sizing: border-box; }
 .media-list li { display: grid; grid-template-columns: 14em 1fr; gap: 0.75em; }
 .media-list .outlet { min-width: 0; }
 @media screen and (max-width: 600px) { .media-list li { grid-template-columns: 1fr; gap: 0; } }
+.recognition strong { font-weight: bold; color: #222; }
