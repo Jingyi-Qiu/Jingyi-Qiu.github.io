@@ -1,15 +1,17 @@
 ---
+layout: page
 permalink: /cv/
-layout: null
-sitemap: false
+title: CV
+excerpt_text: Curriculum vitae of Jingyi Qiu, Ph.D. candidate at the University of Michigan School of Information.
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>CV &middot; Jingyi Qiu</title>
-  <meta http-equiv="refresh" content="0; url={{ site.cv_pdf | relative_url }}">
-  <link rel="canonical" href="{{ site.cv_pdf | absolute_url }}">
-</head>
-<body><p>Redirecting to the <a href="{{ site.cv_pdf | relative_url }}">full CV (PDF)</a>&hellip;</p></body>
-</html>
+
+<p class="cv-download">
+  <a class="button button-blue" href="{{ site.cv_pdf | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i>&nbsp; Open / download PDF</a>
+  <span class="cv-updated">Updated {{ site.cv_updated }}</span>
+</p>
+
+<div class="cv-embed">
+  <iframe src="{{ site.cv_pdf | relative_url }}#view=FitH&amp;toolbar=1" title="Jingyi Qiu CV (PDF)" loading="lazy"></iframe>
+</div>
+
+<p class="cv-mobile-note">On a phone, tap <a href="{{ site.cv_pdf | relative_url }}" target="_blank" rel="noopener">Open / download PDF</a> to view the full CV.</p>

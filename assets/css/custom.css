@@ -107,3 +107,11 @@ footer { box-sizing: border-box; }
 .media-list .outlet { min-width: 0; }
 @media screen and (max-width: 600px) { .media-list li { grid-template-columns: 1fr; gap: 0; } }
 .recognition strong { font-weight: bold; color: #222; }
+
+/* ---- CV page: full PDF embedded in the site ---- */
+.cv-embed iframe { width: 100%; height: calc(100vh - 220px); min-height: 640px; border: 1px solid #e3e3e3; border-radius: 4px; }
+.cv-mobile-note { display: none; color: #666; font-size: 0.9em; }
+@media screen and (max-width: 600px) {
+  .cv-embed { display: none; }
+  .cv-mobile-note { display: block; }
+}
