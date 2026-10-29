@@ -33,9 +33,9 @@ html[data-theme="dark"] .site-header a.site-title:hover,
 html[data-theme="dark"] .social a:hover,
 html[data-theme="dark"] .publications h2,
 html[data-theme="dark"] .header-bar h1,
-html[data-theme="dark"] .star { color: #8fb0e6; }
+html[data-theme="dark"] .star { color: #91a7ff; }
 html[data-theme="dark"] .social a { color: #a9b2bc; }
-html[data-theme="dark"] .bibliography li .author a { border-bottom-color: #8fb0e6; }
+html[data-theme="dark"] .bibliography li .author a { border-bottom-color: #91a7ff; }
 
 /* Header, nav, footer */
 html[data-theme="dark"] .site-header { background-color: #121417; border-bottom-color: #262b31; }
@@ -43,7 +43,7 @@ html[data-theme="dark"] .site-nav { background-color: #121417; border-color: #26
 html[data-theme="dark"] .site-nav .menu-icon > svg path { fill: #cfd6dd; }
 html[data-theme="dark"] footer { background-color: #0c0e11; border-top-color: #0c0e11; color: #8c96a2; }
 html[data-theme="dark"] footer a { color: #d5dbe1; }
-html[data-theme="dark"] footer a:hover { color: #8fb0e6; }
+html[data-theme="dark"] footer a:hover { color: #91a7ff; }
 
 /* Rules, tables, code */
 html[data-theme="dark"] hr,
@@ -59,23 +59,23 @@ html[data-theme="dark"] pre, html[data-theme="dark"] code { background-color: #1
 html[data-theme="dark"] blockquote footer { background-color: #121417; }
 
 /* Cards, highlights, photo, CV viewer */
-html[data-theme="dark"] .hl-card { background: #171a1f; border-color: #262b31; border-top-color: #6f97d6; }
-html[data-theme="dark"] .hl-tag { background: #2f65a7; }
-html[data-theme="dark"] .bio strong { color: #8fb0e6; background: none; }
-html[data-theme="dark"] .news strong, html[data-theme="dark"] .recognition strong { color: #8fb0e6; }
+html[data-theme="dark"] .hl-card { background: #171a1f; border-color: #262b31; border-top-color: #748ffc; }
+html[data-theme="dark"] .hl-tag { background: #4c6ef5; }
+html[data-theme="dark"] .bio strong { color: #91a7ff; background: none; }
+html[data-theme="dark"] .news strong, html[data-theme="dark"] .recognition strong { color: #91a7ff; }
 html[data-theme="dark"] .profile img { box-shadow: 0 0 8px rgba(0,0,0,.7); }
 html[data-theme="dark"] .cv-embed iframe { border-color: #2a2f36; box-shadow: 0 2px 18px rgba(0,0,0,.5); }
 
 /* Theme toggle button (lives in the nav) */
 .theme-toggle { background: none; border: 0; padding: 0 0.15em; margin-left: 0.6em; cursor: pointer; color: #666; font-size: 1.05em; line-height: inherit; vertical-align: baseline; }
-.theme-toggle:hover { color: #00274c; }
+.theme-toggle:hover { color: #3b5bdb; }
 .theme-toggle .fa-sun { display: none; }
 html[data-theme="dark"] .theme-toggle { color: #cfd6dd; }
 html[data-theme="dark"] .theme-toggle:hover { color: #ffcb05; }
 html[data-theme="dark"] .theme-toggle .fa-sun { display: inline-block; }
 html[data-theme="dark"] .theme-toggle .fa-moon { display: none; }
 
-html[data-theme="dark"] .cred { border-color: rgba(143,176,230,.35); color: #8fb0e6; background: rgba(143,176,230,.06); }
-html[data-theme="dark"] a.cred:hover { background: rgba(143,176,230,.14); color: #8fb0e6; }
+html[data-theme="dark"] .cred { border-color: rgba(145,167,255,.35); color: #91a7ff; background: rgba(145,167,255,.06); }
+html[data-theme="dark"] a.cred:hover { background: rgba(145,167,255,.14); color: #91a7ff; }
 html[data-theme="dark"] .talks-line { color: #8c96a2; }
 html[data-theme="dark"] .bio p.lead { color: #eef1f4; }
