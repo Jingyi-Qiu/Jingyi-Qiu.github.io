@@ -12,17 +12,6 @@ profile:
 news: true
 social: true
 
-# Signals shown right under the name (above the fold)
-badges:
-  - text: PNAS 2026
-    url: https://www.pnas.org/doi/10.1073/pnas.2528289123
-  - text: ICLR 2026
-    url: https://iclr.cc/virtual/2026/poster/10008211
-  - text: Together AI
-  - text: Microsoft Research
-  - text: In the Financial Times
-    url: https://www.ft.com/content/df7c0a50-dcc6-4b3a-b3dc-22f742125421
-talks_line: Talks at Stanford (SITE) &middot; MIT &middot; Caltech &middot; Carnegie Mellon &middot; Cornell &middot; ACM EC
 ---
 
 <div class="bio" markdown="1">
