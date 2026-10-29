@@ -5,6 +5,8 @@
     {% for r in h.research %}
     <div class="hl-card">
       <span class="hl-tag">{{ r.tag }}</span>
+      {% if r.image %}{% assign img_url = r.image | prepend: '/assets/img/' | relative_url %}<div class="hl-fig"><a href="{{ img_url }}" target="_blank" rel="noopener" title="Open full-size figure"><img src="{{ img_url }}" alt="{{ r.image_alt }}" loading="lazy"></a></div>{% endif %}
+      {% if r.stats %}<div class="hl-fig hl-stats">{% for s in r.stats %}<div class="hl-stat"><span class="num">{{ s.num }}</span><span class="lbl">{{ s.label }}</span></div>{% endfor %}</div>{% endif %}
       <div class="hl-title">{{ r.title }}</div>
       {% if r.with %}<div class="hl-with">{{ r.with }}</div>{% endif %}
       <p class="hl-finding">{{ r.finding }}</p>

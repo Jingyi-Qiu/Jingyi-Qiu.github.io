@@ -79,3 +79,8 @@ html[data-theme="dark"] .cred { border-color: rgba(141,184,255,.35); color: #8db
 html[data-theme="dark"] a.cred:hover { background: rgba(141,184,255,.14); color: #8db8ff; }
 html[data-theme="dark"] .talks-line { color: #8c96a2; }
 html[data-theme="dark"] .bio p.lead { color: #eef1f4; }
+
+html[data-theme="dark"] .hl-fig { border-color: #262b31; }
+html[data-theme="dark"] .hl-stats { background: linear-gradient(180deg, #1b2230, #182029); }
+html[data-theme="dark"] .hl-stat .num { color: #8db8ff; }
+html[data-theme="dark"] .hl-stat .lbl { color: #a9b2bc; }

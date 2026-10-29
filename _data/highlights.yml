@@ -3,7 +3,14 @@
 research:
   - tag: PNAS 2026
     title: Social Media Promotion Improves Job Market Outcomes
-    with: with Yan Chen, Alain Cohn, and Alvin E. Roth
+    stats:
+      - num: "+441%"
+        label: views of job market paper tweets
+      - num: "+303%"
+        label: likes
+      - num: "+20%"
+        label: flyout invitations
+    with: with Yan Chen, Alain Cohn, and Alvin E. Roth (Nobel Laureate in Economics, 2012)
     finding: A preregistered field experiment in the economics job market shows that promoting candidates' job market papers on social media to the right audience improves their real labor market outcomes.
     note: "Covered by the Financial Times, Michigan News, and New Things Under the Sun."
     links:
@@ -11,6 +18,8 @@ research:
         url: https://www.pnas.org/doi/10.1073/pnas.2528289123
   - tag: ICLR 2026
     title: Counterfactual LLM-based Framework for Measuring Rhetorical Style
+    image: hl/iclr_rhetoric_trend.png
+    image_alt: Average rhetorical score of ICLR submissions by year, rising sharply after 2023
     with: with Hong Chen and Zongyi Li
     finding: Turns an LLM from an unreliable rater into a controlled measurement instrument. Across 8,485 ICLR submissions and 250,000+ counterfactual writings, promotional framing predicts citations and media attention beyond peer-review scores, and rises sharply after 2023 with LLM writing assistance.
     links:
@@ -20,6 +29,8 @@ research:
         url: https://arxiv.org/abs/2512.19908
   - tag: Working paper
     title: Perceived AI Use and Hiring Penalties
+    image: hl/hiring_ai_signal.png
+    image_alt: Willingness-to-hire scores are lower for applicants with an AI-use signal than with a human signal
     with: with Qingyi Wang
     finding: In a hiring experiment for a real position, applicants suspected of using AI receive up to 40.6% lower evaluations whether or not they used it; recruiters detect AI use barely better than chance and infer lower ability, not lower effort.
     links:
@@ -27,6 +38,8 @@ research:
         url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5675322
   - tag: Ongoing &middot; Together AI
     title: Organizing Agent Swarms
+    image: hl/agent_structures.png
+    image_alt: Illustration of agent organizations - hierarchy, peer mesh, pipeline
     with: Frontier Agents team
     finding: How the organization of LLM agent collectives, model capability, reasoning, the agent harness, and the allocation of compute across agents shape multi-agent performance, including agents evaluating one another and agents in dynamic zero-sum games.
 
