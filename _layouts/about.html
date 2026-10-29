@@ -16,13 +16,13 @@ layout: default
     </div>
     {% endif %}
     {% if page.talks_line %}<p class="talks-line">{{ page.talks_line }}</p>{% endif %}
-    {% if page.social %}{% include social.html %}{% endif %}
   </header>
 
   <article class="post-content about clearfix">
     {% if page.profile %}
     <div class="profile col one {{ page.profile.align }}">
       <img class="one" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Photo of {{ site.name }}" width="560" height="700">
+      {% if page.social %}{% include social.html %}{% endif %}
     </div>
     {% endif %}
 
