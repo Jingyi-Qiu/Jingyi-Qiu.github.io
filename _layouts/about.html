@@ -10,6 +10,12 @@ layout: default
       {% if page.subtitle_note %}<span class="job-market">{{ page.subtitle_note }}</span>{% endif %}
       <span class="email-line"><code>{{ site.email_display }}</code></span>
     </h5>
+    {% if page.badges %}
+    <div class="creds">
+      {% for b in page.badges %}{% if b.url %}<a class="cred" href="{{ b.url }}" target="_blank" rel="noopener">{{ b.text }}</a>{% else %}<span class="cred">{{ b.text }}</span>{% endif %}{% endfor %}
+    </div>
+    {% endif %}
+    {% if page.talks_line %}<p class="talks-line">{{ page.talks_line }}</p>{% endif %}
     {% if page.social %}{% include social.html %}{% endif %}
   </header>
 

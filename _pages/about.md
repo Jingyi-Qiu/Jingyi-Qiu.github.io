@@ -11,12 +11,27 @@ profile:
 
 news: true
 social: true
+
+# Signals shown right under the name (above the fold)
+badges:
+  - text: PNAS 2026
+    url: https://www.pnas.org/doi/10.1073/pnas.2528289123
+  - text: ICLR 2026
+    url: https://iclr.cc/virtual/2026/poster/10008211
+  - text: Together AI
+  - text: Microsoft Research
+  - text: In the Financial Times
+    url: https://www.ft.com/content/df7c0a50-dcc6-4b3a-b3dc-22f742125421
+talks_line: Talks at Stanford (SITE) &middot; MIT &middot; Caltech &middot; Carnegie Mellon &middot; Cornell &middot; ACM EC
 ---
 
 <div class="bio" markdown="1">
 
-I am a Ph.D. candidate in Information Science at the University of Michigan School of Information, advised by Yan Chen, Qiaozhu Mei, and Alain Cohn. I study how to turn **swarms of AI agents into effective organizations**, and how to keep **human and AI judges from rewarding hype over substance**. My research combines field and lab experiments, causal inference, and LLM-based measurement, so that claims about what AI systems do can be tested rather than assumed.
+I study how to turn **swarms of AI agents into effective organizations**, and how to keep **human and AI judges from rewarding hype over substance**.
+{: .lead}
 
-I am currently a **Frontier Agents research intern at [Together AI](https://www.together.ai/)**, where I study how different ways of organizing agent swarms affect how effectively LLM agents work together, including how agents evaluate one another's work; I also study how agents perform in strategic settings. My other work examines how **social media promotion influences job market outcomes** through a field experiment (PNAS 2026), and develops **LLM-based measurement methods**, such as a counterfactual framework for measuring rhetorical style (ICLR 2026). Previously, I was a research intern at **Microsoft Research** (Economics and Computation). I received a B.A. from Duke University and a B.Econ. from Duke Kunshan University.
+I am a Ph.D. candidate in Information Science at the University of Michigan School of Information, advised by Yan Chen, Qiaozhu Mei, and Alain Cohn. I am currently a **Frontier Agents research intern at [Together AI](https://www.together.ai/)**, where I study how different ways of organizing agent swarms affect how effectively LLM agents work together, including how agents evaluate one another's work and how they perform in strategic settings. Previously, I was a research intern at **Microsoft Research** (Economics and Computation).
+
+My other work examines how **social media promotion influences job market outcomes** through a field experiment ([PNAS 2026](https://www.pnas.org/doi/10.1073/pnas.2528289123)), and develops **LLM-based measurement methods**, such as a counterfactual framework for measuring rhetorical style ([ICLR 2026](https://iclr.cc/virtual/2026/poster/10008211)). My research combines field and lab experiments, causal inference, and LLM-based measurement, so that claims about what AI systems do can be tested rather than assumed. I received a B.A. from Duke University and a B.Econ. from Duke Kunshan University.
 
 </div>

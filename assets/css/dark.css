@@ -74,3 +74,8 @@ html[data-theme="dark"] .theme-toggle { color: #cfd6dd; }
 html[data-theme="dark"] .theme-toggle:hover { color: #ffcb05; }
 html[data-theme="dark"] .theme-toggle .fa-sun { display: inline-block; }
 html[data-theme="dark"] .theme-toggle .fa-moon { display: none; }
+
+html[data-theme="dark"] .cred { border-color: rgba(141,184,255,.35); color: #8db8ff; background: rgba(141,184,255,.06); }
+html[data-theme="dark"] a.cred:hover { background: rgba(141,184,255,.14); color: #8db8ff; }
+html[data-theme="dark"] .talks-line { color: #8c96a2; }
+html[data-theme="dark"] .bio p.lead { color: #eef1f4; }

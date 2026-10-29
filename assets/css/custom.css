@@ -128,3 +128,10 @@ footer { box-sizing: border-box; }
   .cv-bar { width: auto; left: 0; transform: none; flex-wrap: wrap; margin-top: 0; }
   .cv-mobile-note { display: block; }
 }
+
+/* ---- Above-the-fold signals (badges + talks line) and bio lead ---- */
+.creds { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 0; }
+.cred { font-size: 0.82em; font-weight: 500; line-height: 1.3; padding: 5px 11px; border: 1px solid rgba(47,101,167,.35); border-radius: 999px; color: #2f65a7; background: rgba(47,101,167,.05); }
+a.cred:hover { background: rgba(47,101,167,.12); text-decoration: none; color: #2f65a7; }
+.talks-line { font-size: 0.88em; color: #666; margin: 10px 0 0; }
+.bio p.lead { font-size: 1.28em; line-height: 1.45; color: #222; margin-bottom: 0.9em; }
