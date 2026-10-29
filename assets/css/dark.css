@@ -11,7 +11,6 @@ html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] 
 html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6,
 html[data-theme="dark"] .post-title,
 html[data-theme="dark"] .hl-title,
-html[data-theme="dark"] .recognition strong,
 html[data-theme="dark"] .bibliography li .author strong,
 html[data-theme="dark"] .bibliography li .title { color: #eef1f4; }
 html[data-theme="dark"] .post-description,
@@ -63,6 +62,7 @@ html[data-theme="dark"] blockquote footer { background-color: #121417; }
 html[data-theme="dark"] .hl-card { background: #171a1f; border-color: #262b31; border-top-color: #5b8fd6; }
 html[data-theme="dark"] .hl-tag { background: #3d74c0; }
 html[data-theme="dark"] .bio strong { color: #8db8ff; background: none; }
+html[data-theme="dark"] .news strong, html[data-theme="dark"] .recognition strong { color: #8db8ff; }
 html[data-theme="dark"] .profile img { box-shadow: 0 0 8px rgba(0,0,0,.7); }
 html[data-theme="dark"] .cv-embed iframe { border-color: #2a2f36; box-shadow: 0 2px 18px rgba(0,0,0,.5); }
 
