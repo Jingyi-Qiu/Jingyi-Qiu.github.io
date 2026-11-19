@@ -3,7 +3,7 @@ layout: about
 permalink: /
 title: About
 subtitle: Ph.D. Candidate, <a href="https://www.si.umich.edu/" target="_blank" rel="noopener">School of Information</a>, University of Michigan
-subtitle_note: On the 2026&ndash;27 academic and industry job markets.
+subtitle_note: On the 2026&ndash;27 industry and academic job markets.
 
 profile:
   align: right
